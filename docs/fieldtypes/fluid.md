@@ -255,14 +255,14 @@ For checkbox and multiselect variable pairs:
 A file field variable pair:
 
     {my_fluid_field}
-      {fluid_field:my_image}
+      {my_fluid_field:my_image}
         {content}
           Extension: {extension}
           Upload date: {upload_date format="%Y %m %d"}
           URL: {url}
           Custom med thumbnail url: {url:med}
         {/content}
-      {/fluid_field:my_image}
+      {/my_fluid_field:my_image}
     {/my_fluid_field}
 
 Single variable file field:
